@@ -52,7 +52,3 @@ def reverse_word_of_a_string_use_replace_method(file):
                 # replace original word in the line by reserved word one by one
                 line = line.replace(word, reverse_word)
             output_file.write(line)
-
-file = "/Users/sizhuhicks/Documents/ucsc_class/DevOps/devops/python_question/test_python_question.txt"
-#reverse_word_of_a_string(file)
-reverse_word_of_a_string_use_replace_method(file)
